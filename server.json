@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.preferly/preferly",
+  "title": "Preferly",
+  "description": "Free AI visibility checks for any website: AI crawler access, llms.txt, schema, business info.",
+  "version": "1.0.1",
+  "websiteUrl": "https://www.preferly.ai/tools",
+  "repository": {
+    "url": "https://github.com/preferly-ai/preferly-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://www.preferly.ai/icon.svg",
+      "mimeType": "image/svg+xml"
+    },
+    {
+      "src": "https://www.preferly.ai/apple-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "180x180"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.preferly.ai/mcp"
+    }
+  ]
+}

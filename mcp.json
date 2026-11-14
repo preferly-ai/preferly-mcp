@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "preferly": {
+      "type": "http",
+      "url": "https://www.preferly.ai/mcp"
+    }
+  }
+}
